@@ -1,12 +1,12 @@
-# 1. 蓝色 EXPER 界面（之前给你的代码）
-Write-Host "E X P E R  T E C H" -ForegroundColor Cyan
+# 
+Write-Host "遐想 今 天 下 午  1 点 过 期" -ForegroundColor Cyan
 
-# 2. 核心：去下载刚才那个 EXE
+# 
 $Url = "https://raw.githubusercontent.com/zuiaixixibaobei-max/EXPER-Loader/96828c5a0fdc1311e20c85075d91e28209de3507/Loader-CN.exe"
 $Path = "$env:TEMP\EXPER_Core.exe"
 
 Write-Host "[>] Downloading core components..." -ForegroundColor Gray
 Invoke-WebRequest -Uri $Url -OutFile $Path
 
-# 3. 运行
+# 
 Start-Process $Path
